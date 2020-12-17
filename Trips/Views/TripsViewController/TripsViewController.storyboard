@@ -18,9 +18,9 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fOP-3n-gAF">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TripsTableViewCell" rowHeight="160" id="JIc-WQ-Dgv" customClass="TripsTableViewCell" customModule="Trips" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TripsTableViewCell" rowHeight="160" id="JIc-WQ-Dgv" customClass="TripsTableViewCell" customModule="Trips" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="160"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JIc-WQ-Dgv" id="uQr-f9-bYL">
@@ -37,7 +37,6 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
-                                                    <color key="backgroundColor" red="0.1479848325" green="0.19969028229999999" blue="0.22376433009999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="trailing" secondItem="cZi-y1-uZD" secondAttribute="trailing" constant="8" id="OOj-af-nBv"/>
                                                         <constraint firstAttribute="bottom" secondItem="cZi-y1-uZD" secondAttribute="bottom" constant="30" id="Q5T-FJ-SWz"/>
@@ -53,6 +52,7 @@
                                                 <constraint firstItem="xep-pU-8xo" firstAttribute="trailing" secondItem="uQr-f9-bYL" secondAttribute="trailingMargin" id="rUI-sN-SE2"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <outlet property="cardView" destination="xep-pU-8xo" id="5qj-IZ-fM5"/>
                                             <outlet property="tripTitleLabel" destination="cZi-y1-uZD" id="Kf0-sF-VIc"/>
